@@ -11,7 +11,7 @@ Implement Complete Data Pipeline Data Engineering Project using Spotify
 - Set IAM roles for S3 access.
 
  3. Add Automatic Trigger
-- Set up CloudWatch Events to trigger the Lambda function on a schedule (e.g., daily).
+- Set up CloudWatch Events to trigger the Lambda function on a schedule to extract data which will be store in s3. (e.g., daily).
 
  4. Write Transformation Function
 - Develop a function to process and transform the extracted data as needed.
